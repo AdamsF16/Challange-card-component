@@ -66,6 +66,43 @@ html {
 }
 .card__text-info {
   color: grey;
+  padding: 1em 0;
+}
+.card__text-price-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 1.5em;
+  font-family: "Fraunces", serif;
+}
+.card__text-current {
+  font-size: 2rem;
+  color: hsl(158deg, 36%, 37%);
+  font-weight: bold;
+  margin-right: 0.8em;
+}
+.card__text-old {
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-decoration: line-through;
+}
+.card__text-btn {
+  padding: 0.6em 1em;
+  background-color: hsl(158deg, 36%, 37%);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+}
+.card__text-icon {
+  margin-right: 0.5em;
 }
 
 .attribution {
