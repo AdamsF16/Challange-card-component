@@ -18,7 +18,7 @@ body {
 }
 
 .card__container {
-  margin: 3em 2em;
+  margin: 5em 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,11 +28,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 90%;
+  height: 100%;
 }
 .card__product {
   width: 500px;
   height: 700px;
+  margin-top: 50px;
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid hsl(30deg, 38%, 92%);
